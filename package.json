@@ -1,0 +1,33 @@
+{
+    "name": "x-script-language-support",
+    "displayName": "x-script-language-support",
+    "description": "Support syntax highlighting within x-script components",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.75.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [
+            {
+                "id": "x-script",
+                "aliases": [
+                    "x-script"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "x-script",
+                "scopeName": "text.html.php.blade.x-script",
+                "path": "./syntaxes/x-script.tmLanguage.json",
+                "embeddedLanguages": {
+                    "source.js": "javascript"
+                }
+            }
+        ]
+    }
+}

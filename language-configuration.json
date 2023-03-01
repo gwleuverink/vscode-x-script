@@ -1,0 +1,22 @@
+{
+    "name": "blade-php-language-configuration",
+    "comments": {
+        "lineComment": "//",
+        "blockComment": [
+            "/*",
+            "*/"
+        ]
+    },
+    "brackets": [
+        [
+            "<x-script>",
+            "</x-script>"
+        ]
+    ],
+    "__embeddedLanguages": {
+        "javascript": {
+            "begin": "<x-script>",
+            "end": "</x-script>"
+        }
+    }
+}

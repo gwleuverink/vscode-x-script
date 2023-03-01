@@ -1,0 +1,11 @@
+{
+    "name": "x-script-component",
+    "begin": "<x-script?([\\S\\s]*?)\\>",
+    "end": "</x-script?([\\S\\s]*?)\\>",
+    "contentName": "source.js",
+    "patterns": [
+        {
+            "include": "source.js"
+        }
+    ]
+}
