@@ -1,9 +1,14 @@
 {
     "name": "x-script-language-support",
-    "displayName": "x-script language support",
-    "description": "Support syntax highlighting within x-script components",
-    "version": "0.0.1",
+    "displayName": "x-script Language Support",
+    "description": "Support embedded language syntax highlighting within x-script components",
+    "version": "0.1",
     "license": "MIT",
+    "author": {
+        "name": "Willem Leuverink",
+        "email": "willem@leuver.ink",
+        "url": "https://leuver.ink"
+    },
     "engines": {
         "vscode": "^1.75.0"
     },
