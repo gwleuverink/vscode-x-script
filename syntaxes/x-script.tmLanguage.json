@@ -1,11 +1,27 @@
 {
-    "name": "x-script-component",
-    "begin": "<x-script?([\\S\\s]*?)\\>",
-    "end": "</x-script?([\\S\\s]*?)\\>",
-    "contentName": "source.js",
+    "fileTypes": [],
+    "injectionSelector": "L:text.html.php.blade",
     "patterns": [
         {
-            "include": "source.js"
+            "include": "#x-script-component"
         }
-    ]
+    ],
+    "repository": {
+        "x-script-component": {
+            "name": "blade.fenced_code.block.x-script",
+            "begin": "<x-script?([\\S\\s]*?)\\>",
+            "end": "</x-script?([\\S\\s]*?)\\>",
+            "patterns": [
+                {
+                    "contentName": "meta.embedded.block.x-script",
+                    "patterns": [
+                        {
+                            "include": "source.js"
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "scopeName": "blade.x-script.component"
 }

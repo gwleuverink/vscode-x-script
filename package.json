@@ -1,8 +1,9 @@
 {
     "name": "x-script-language-support",
-    "displayName": "x-script-language-support",
+    "displayName": "x-script language support",
     "description": "Support syntax highlighting within x-script components",
     "version": "0.0.1",
+    "license": "MIT",
     "engines": {
         "vscode": "^1.75.0"
     },
@@ -12,20 +13,19 @@
     "contributes": {
         "languages": [
             {
-                "id": "x-script",
-                "aliases": [
-                    "x-script"
-                ],
-                "configuration": "./language-configuration.json"
+                "id": "x-script"
             }
         ],
         "grammars": [
             {
                 "language": "x-script",
-                "scopeName": "text.html.php.blade.x-script",
+                "scopeName": "blade.x-script.component",
                 "path": "./syntaxes/x-script.tmLanguage.json",
+                "injectTo": [
+                    "text.html.php.blade"
+                ],
                 "embeddedLanguages": {
-                    "source.js": "javascript"
+                    "meta.embedded.block.x-script": "javascript"
                 }
             }
         ]
