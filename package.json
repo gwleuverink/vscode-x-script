@@ -2,7 +2,7 @@
     "name": "x-script-language-support",
     "displayName": "x-script Language Support",
     "description": "Support embedded language syntax highlighting within x-script components",
-    "version": "0.1",
+    "version": "0.0.1",
     "license": "MIT",
     "author": {
         "name": "Willem Leuverink",
