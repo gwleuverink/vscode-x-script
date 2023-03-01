@@ -1,6 +1,8 @@
-# x-script Language Support
+# `<x-script>` support for vscode
 
 This vscode extension adds embedded language syntax highlighting and emmet snippets to `<x-script>` blade components
+
+![screenshot](https://raw.githubusercontent.com/gwleuverink/vscode-x-script/main/docs/img/screenshot.png)
 
 ## Features
 
