@@ -8,12 +8,19 @@
         "vscode": "^1.75.0"
     },
     "categories": [
-        "Programming Languages"
+        "Programming Languages",
+        "Snippets"
     ],
     "contributes": {
         "languages": [
             {
                 "id": "x-script"
+            }
+        ],
+        "snippets": [
+            {
+                "language": "blade",
+                "path": "./snippets.json"
             }
         ],
         "grammars": [
