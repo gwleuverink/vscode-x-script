@@ -1,5 +1,7 @@
 {
-    "fileTypes": [],
+    "fileTypes": [
+        "blade.php"
+    ],
     "injectionSelector": "L:text.html.php.blade",
     "patterns": [
         {
