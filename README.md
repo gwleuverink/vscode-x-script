@@ -2,6 +2,8 @@
 
 This vscode extension adds embedded language syntax highlighting and emmet snippets to `<x-script>` blade components
 
+X-Script is a library that i'm still working on that provides inline ECMAScript bundling & support for regular & async imports inside for Laravel Blade. 
+
 ![screenshot](https://raw.githubusercontent.com/gwleuverink/vscode-x-script/main/docs/img/screenshot.png)
 
 ## Features
