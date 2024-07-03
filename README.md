@@ -1,3 +1,8 @@
+> ⚠️ **Abandoned**
+>
+> x-script has been replaced by ***Bundle***
+> [laravel-bundle.dev](https://laravel-bundle.dev)
+
 # `<x-script>` support for vscode
 
 This vscode extension adds embedded language syntax highlighting and emmet snippets to `<x-script>` blade components
